@@ -5573,6 +5573,7 @@ $config = new Config([
     'username' => 'php-crud-api',
     'password' => 'php-crud-api',
     'database' => 'php-crud-api',
+    'hostname' => 'localhost'
 ]);
 $request = new Request();
 $api = new Api($config);
